@@ -1,5 +1,6 @@
 #Gappy for node.js
 Happy Google Analytics utility. Just provide your JWT, build your reports, and enjoy the response you receive.
+Uses the [Google Analytics Reporting API v4](https://github.com/google/google-api-nodejs-client).
 
 ## Installing
 ```bash
