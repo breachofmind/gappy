@@ -23,7 +23,7 @@ var options = {
 
 gappy(require('./path/to/jwt.json'), options, function(Report) {
 
-    return 
+    return new gappy.Report("myFunReport", require('./path/to/report.json'));
 
 }).then(gappy.toCSV).then(gappy.toColumns);
 ```
