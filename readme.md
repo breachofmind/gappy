@@ -72,3 +72,9 @@ var report = new gappy.Report('cityReport', VIEW_ID)
 var cloned = report.clone('cityCloned').date('2015-10-01','2016-10-01',0);
 
 ```
+
+### Options
+- `allResults` : Return the entire dataset if it is paginated. If your resultset has more than 10,000 records, 
+it will keep querying until all the data is returned. Be careful with this one...
+- `maxRequests` : Total number of requests to the API before stopping. Good if you are wary about querying the API
+too much for big data dumps.
